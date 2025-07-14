@@ -3,6 +3,7 @@ export default function UserLayout({ children }: { children: React.ReactNode }) 
     <div>
       <header>User Navigation</header>
       <main>{children}</main>
+      <footer>Footer</footer>
     </div>
   );
 }
