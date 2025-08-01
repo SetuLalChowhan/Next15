@@ -1,6 +1,6 @@
 // app/(user)/layout.tsx
 import UserLayout from "@/components/layouts/UserLayout";
-
+import "../globals.css";
 export default function UserSectionLayout({
   children,
 }: {
